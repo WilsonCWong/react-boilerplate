@@ -5,6 +5,7 @@ A boilerplate/reference I developed to help kickstart my React projects. Heavily
 - React Router, Redux (with ```redux-thunk```), and ```styled-components``` preconfigured and ready right out of the box.
 - Flexible, organized, and sane file structure inspired by [Spectrum](https://github.com/withspectrum/spectrum/).
 - Support for build analyzation, just install ```source-map-explorer``` by doing ```yarn global add source-map-explorer```, and then run ```yarn analyze```.
+- Support for using absolute paths when importing ES6 modules.
 
 I recommend using ```yarn``` as the package manager for this. Otherwise, delete the ```yarn.lock``` before running ```npm install```.
 
