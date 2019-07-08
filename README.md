@@ -14,6 +14,7 @@ I recommend using ```yarn``` as the package manager for this. Otherwise, delete 
 2. Move to the directory you cloned it to: ```cd <THE_PROJECT_DIRECTORY>```.
 3. Run ```yarn install``` to install dependencies.
 4. Run the project with ```yarn start```.
+5. Delete the .git folder to and run ```git init``` to reinitialize the git repository.
 
 Note that some folders have a dummy ```.gitignore``` file, which is used to maintain folder structure in the Git repository. For now, you can remove these manually. I plan to write a setup script later on to automate this.
 
